@@ -7,31 +7,32 @@ This is a powerful and lightweight steganography program to hide message to a fi
 
 ## Dependencies
 
-Before you install you must install dependency. In Debian and Ubuntu distribution type in your console:
+Before you install you must install dependency. In Debian and Ubuntu distributions:
+Type in console:
 
 ```
 sudo apt install libssl-dev
 ```
 
-## Installation
+## Compiling and Installing
 
-To install, just type:
+To compile, just type:
 
 ```
 mkdir <YOUR_DIRECTORY> && cd <YOUR_DIRECTORY>
 git clone https://github.com/devfabiosilva/myStegHideProgram.git
-cd src && make install
+cd myStegHideProgram/src/ && make
 ```
 
 Optionally you can install into your system program directory /usr/bin/
 
 ```
-sudo make uninstall
+sudo make install
 ```
 
 ## Uninstalling and cleaning
 
-If you want to delete compile program:
+If you want to delete compiled _fstg_ program:
 
 ```
 make clean
