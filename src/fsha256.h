@@ -1,22 +1,9 @@
 /*
- * fsha256.h
- * This file is part of fstg
- *
- * Copyright (C) 2018 - Fábio Pereira da Silva
- *
- * fstg is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * fstg is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with fstg. If not, see <http://www.gnu.org/licenses/>.
- */
+	AUTHOR: Fábio Pereira da Silva
+	YEAR: 2018
+	LICENSE: MIT
+	EMAIL: fabioegel@gmail.com or fabioegel@protonmail.com
+*/
 
 #ifdef DEBUG
 

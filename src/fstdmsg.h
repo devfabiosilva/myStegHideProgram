@@ -1,22 +1,9 @@
 /*
- * fstdmsg.h
- * This file is part of fstg
- *
- * Copyright (C) 2018 - Fábio Pereira da Silva
- *
- * fstg is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * fstg is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with fstg. If not, see <http://www.gnu.org/licenses/>.
- */
+	AUTHOR: Fábio Pereira da Silva
+	YEAR: 2018
+	LICENSE: MIT
+	EMAIL: fabioegel@gmail.com or fabioegel@protonmail.com
+*/
 
 // Standard messages goes here
 // Main file
@@ -104,7 +91,7 @@
 #define MSG_DECRYPTING "\nDecrypting and extracting hidden file \"%s\" ...\n"
 #define MSG_EXTRACTING_HIDDEN_FILE "\nExtracting hidden file \"%s\" ...\n"
 #define MSG_CHECKING_HIDDEN_FILE_INTEGRITY "\nChecking hidden file integrity...\n"
-
+/*
 #define LICENSE \
 MSG_VERSION \
 "\n\nCopyright (C) 2016 Free Software Foundation, Inc.\n\
@@ -112,4 +99,23 @@ License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\n
 This is free software: you are free to change and redistribute it.\n\
 There is NO WARRANTY, to the extent permitted by law.\n\nAUTHOR: " C_AUTHOR "\n"\
 "EMAIL: " C_AUTHOR_EMAIL "\n"
-
+*/
+#define LICENSE \
+MSG_VERSION \
+"\n\nMIT License\n\n"\
+"Copyright (c) 2018 "C_AUTHOR"\n\n"\
+"Permission is hereby granted, free of charge, to any person obtaining a copy\n"\
+"of this software and associated documentation files (the \"Software\"), to deal\n"\
+"in the Software without restriction, including without limitation the rights\n"\
+"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"\
+"copies of the Software, and to permit persons to whom the Software is\n"\
+"furnished to do so, subject to the following conditions:\n\n"\
+"The above copyright notice and this permission notice shall be included in all\n"\
+"copies or substantial portions of the Software.\n\n"\
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"\
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"\
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"\
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"\
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"\
+"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"\
+"SOFTWARE.\n\n"
