@@ -124,7 +124,7 @@ Dogecoin:  | DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau
 
 ## License
 
-MIT
+This project is under MIT license see [LICENSE](/LICENSE)
 
 ## Contact
 
