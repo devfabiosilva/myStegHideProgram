@@ -60,45 +60,57 @@ fstg [ OPTIONS ] <DEST. FILE> <FILE TO BE HIDDEN>
 ### Commands
 
 
-- **add <DEST. FILE> <FILE TO BE HIDDEN>** Add <FILE TO BE HIDDEN> to <DEST. FILE>
+- _add <DEST. FILE> <FILE TO BE HIDDEN>_ Add <FILE TO BE HIDDEN> to <DEST. FILE>
 
 Example:
 
-Hide a message text in mytext.txt inside mypicture.jpeg without password:
+Hide a message text in _mytext.txt inside_ _mypicture.jpeg_ without password:
 
 ```
 fstg add mypicture.jpg mytext.txt
 ```
 
-- **add-with-password <DEST. FILE> <FILE TO BE HIDDEN>** Encrypt and add <FILE TO BE HIDDEN> to <DEST. FILE>
+- _add-with-password <DEST. FILE> <FILE TO BE HIDDEN>_ Encrypt and add <FILE TO BE HIDDEN> to <DEST. FILE>
 
 Example:
 
-Hide a message text in mytext.txt inside mypicture.jpeg with password encryption
+Hide a message text in _mytext.txt_ inside _mypicture.jpeg_ with password encryption
 
 ```
 fstg add-with-password mypicture.jpg mytext.txt
 ```
 
-- **extract <DEST. FILE>** Extract an stegged file (if exists) from <DEST. FILE>
+- _extract <DEST. FILE>_ Extract an stegged file (if exists) from <DEST. FILE>
 
 Example:
 
-To extract a hidden message inside mypicture.jpeg type:
+To extract a hidden message inside _mypicture.jpeg_ type:
 
 ```
 fstg extract mypicture.jpeg
 ```
 
-- **usage** Shows program version and details.
+- _usage_ Shows program version and details.
 
-- **version** Shows program version and details.
+- _version_ Shows program version and details.
 
 ### Sample example file
 
+In [example](/example/) directory there is an [image](/example/incognito.jpg) and a hidden message inside.
+
+To open hidden message you must extract the encrypted hidden file:
+
+```
+fstg extract incognito.jpg
+```
+
+**PASSWORD IS** _1234_
 
 ## License
 
 MIT
 
 ## Contact
+
+Contact me at [fabioegel@gmail.com](mailto:fabioegel@gmail.com) or [fabioegel@protonmail.com](mailto:fabioegel@protonmail.com)
+
