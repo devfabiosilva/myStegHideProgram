@@ -99,6 +99,10 @@ fstg extract mypicture.jpeg
 
 In [example](/example/) directory there is an [image](/example/incognito.jpg) and a hidden message inside.
 
+<p align="center">
+  <img src="/example/incognito.jpg">
+</p>
+
 To open hidden message you must extract the encrypted hidden file:
 
 ```
