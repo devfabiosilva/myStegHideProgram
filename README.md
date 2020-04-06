@@ -5,6 +5,8 @@ This is a powerful and lightweight steganography program to hide message to a fi
 - Hide file to another file without password
 - Hide file to another file with passowrd encrypted with AES256 and PBKDF2 algorithms
 
+For more information and basic concepts click [https://www.linkedin.com/pulse/steganography-how-hide-cipher-plain-messages-inside-pereira-da-silva](here) (English version) or [https://www.linkedin.com/pulse/esteganografia-como-esconder-e-criptografar-sigilosas-f%25C3%25A1bio](here) (Portuguese version)
+
 ## Dependencies
 
 Before you install you must install dependency. In Debian and Ubuntu distributions:
@@ -41,7 +43,7 @@ make clean
 If you installed and wish to unistall from system program directory /usr/bin/ type:
 
 ```
-sudo make unistall
+sudo make uninstall
 ```
 
 ## Running fstg
