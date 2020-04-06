@@ -5,7 +5,7 @@ This is a powerful and lightweight steganography program to hide message to a fi
 - Hide file to another file without password
 - Hide file to another file with passowrd encrypted with AES256 and PBKDF2 algorithms
 
-For more information and basic concepts click [https://www.linkedin.com/pulse/steganography-how-hide-cipher-plain-messages-inside-pereira-da-silva](here) (English version) or [https://www.linkedin.com/pulse/esteganografia-como-esconder-e-criptografar-sigilosas-f%25C3%25A1bio](here) (Portuguese version)
+For more information and basic concepts click [here](https://www.linkedin.com/pulse/steganography-how-hide-cipher-plain-messages-inside-pereira-da-silva) (English version) or [here](https://www.linkedin.com/pulse/esteganografia-como-esconder-e-criptografar-sigilosas-f%25C3%25A1bio) (Portuguese version)
 
 ## Dependencies
 
